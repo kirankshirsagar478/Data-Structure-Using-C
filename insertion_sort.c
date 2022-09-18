@@ -1,8 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 
  void main()
  {
     int is[10],i,j,n,temp;
+    //clrscr();
     printf("\n How many Elements:");
     scanf("%d",&n);
     printf("\n Enter Array elements:");
@@ -36,4 +38,5 @@
     {
         printf("\t%d",is[i]);
     }
+    getch();
  }

@@ -3,6 +3,7 @@
  void main()
  {
     int ss[10],n,i,j,min,temp;
+    //clrscr();
     printf("\n Enter No of elements:");
     scanf("%d",&n);
     printf("\n Enter Array elements:");
@@ -40,4 +41,5 @@
   {
     printf("\t%d",ss[i]);
   }
+  getch();
  }

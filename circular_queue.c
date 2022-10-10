@@ -91,21 +91,18 @@ int cqempty()
 int delete()
 {
     int item;
-    while(cq.rear!=-1)
-    {
         if (cq.front==cq.rear)
         {
             item = cq.que[cq.front];
-            //cq.front=cq.rear=-1;
+            cq.front=cq.rear=-1;
         }
         else
         {
             cq.front=(cq.front+1)%size;
         }
-    }
     
     printf("\n deleted item is== %d", item);
-    return cq.front;
+    return 0;
 }
 int display()
 {

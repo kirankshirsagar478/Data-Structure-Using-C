@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "ST11.C": "cpp"
+        "ST11.C": "cpp",
+        "linklist.C": "cpp"
     }
 }
